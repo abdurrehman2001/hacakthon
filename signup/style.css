@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+body{
+    background-image: url(imgs/orijit-chatterjee-wEBg_pYtynw-unsplash.jpg);
+    background-size: cover;
+}
+.main-box{
+    margin: 0px auto;
+    width: 60%;
+    background-color: transparent;
+    text-align: center;
+    border-radius: 50%;
+    height: 610px;
+}
+.content-box > h1{
+    font-family: "Bebas Neue";
+    font-variant: small-caps;
+    font-style: italic;
+    font-size: 52px;
+    margin-top: 10px;
+    color: lightsalmon;
+}
+.content-box > p{
+    font-family: "Dancing Script";
+    font-size: 35px;
+    margin-top: -30px;
+    font-style: italic;
+    font-weight: bold;
+    margin-bottom: 6px;
+    color: lightsalmon
+}
+.content-box > input{
+    width: 35%;
+    padding: 25px;
+    font-size: 19px;
+    font-family: "Neucha";
+    font-weight: bold;
+    text-align: center;
+    border-radius: 25px;
+    border: 3px solid white;
+    outline: none;
+    margin-top: 7px;
+    background-color: transparent;
+    color: white;
+}
+.content-box > input::placeholder{
+    color: white;
+}
+.content-box > input:focus{
+    width: 50%;
+    transition: 1.5s;
+    border: 7px double white;
+}
+.content-box > button{
+    padding: 20px;
+    border: 3px solid gray;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family:cursive;
+    font-size: 20px;
+    width: 20%;
+    margin-top: 5px;
+    margin-bottom: 7px;
+}
+.content-box > button:hover{
+    border: 3px solid lightsalmon;
+    color: lightsalmon;
+}
+.content-box > a{
+    font-size: 20px;
+    letter-spacing: 5px;
+    color: white;
+    font-family: cursive;
+    font-style: oblique;
+    text-transform: capitalize;
+}
+.swal-modal{
+    background-color: rgb(248, 192, 169);
+    font-family:monospace;
+    font-style: italic;
+}
+.swal-footer{
+    text-align: center;
+    
+}
+.swal-button{
+    background-color: gray;
+}
+.swal-button:hover{
+    background-color: lightgrey !important;
+}
+@media only screen and (max-width: 760px) {
+    .main-box{
+        margin: 0px auto;
+        width: 100%;
+        text-align: center;
+        border-radius: 0%;
+        height: auto;
+    }
+    .content-box > input{
+        width: auto;
+    } 
+    .content-box > button{
+        padding: 0px;   
+        border: none;
+        background: none;
+    }
+    .content-box > button:hover{
+        border: none;
+        color:none;
+    }
+  }

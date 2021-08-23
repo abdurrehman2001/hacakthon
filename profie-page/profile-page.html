@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile-Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="main">
+    <button class="logout" onclick="logout()">Logout</button>
+    <div class="main-box">
+      <img src="imgs/8b167af653c2399dd93b952a48740620.jpg" alt="">
+      <p id="name"></p>
+      <p id="email"></p>
+      <p id="password"></p>
+      <p id="country"></p>
+      <p id="city"></p>
+    </div>
+  </div>
+
+  <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-database.js"></script>
+
+
+  <script>
+
+    var firebaseConfig = {
+      apiKey: "AIzaSyCABsiWglWL5G-45VoCpPv7H4JiWJqEB_A",
+      authDomain: "practice-631e4.firebaseapp.com",
+      databaseURL: "https://practice-631e4-default-rtdb.firebaseio.com",
+      projectId: "practice-631e4",
+      storageBucket: "practice-631e4.appspot.com",
+      messagingSenderId: "115271660016",
+      appId: "1:115271660016:web:6a03d95962ddc6bed36d35"
+    };
+    firebase.initializeApp(firebaseConfig);
+  </script>
+
+  <script src="app.js"></script>
+</body>
+
+</html>

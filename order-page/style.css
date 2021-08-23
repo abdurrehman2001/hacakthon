@@ -1,0 +1,50 @@
+body{
+    background-image: url(imgs/orijit-chatterjee-wEBg_pYtynw-unsplash.jpg);
+    background-size: cover;
+}
+.logo{
+    color: lightsalmon;
+    font-size: 45px;
+}
+h3{
+    font-size: 40px;
+}
+button{
+    float: right;
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-color: white !important;
+    color: white !important;
+}
+button:hover{
+    background-color: lightsalmon !important;
+    color: black !important;
+}
+.links{
+    position: absolute;
+    top: 2%;
+    left: 32%;
+}
+a{
+    text-decoration: none;
+    margin-left: 22px;
+    font-size: 25px;
+    color: white;
+}
+a:hover{
+    text-decoration: none;
+    color: lightsalmon ;
+
+}
+.main-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+@media only screen and (max-width: 1003px) {
+    .links{
+        display: none;
+    }
+
+}
